@@ -482,6 +482,14 @@ p { margin: 0 0 1em; }
 }
 .cta-box .section-eyebrow { color: var(--clay-100); }
 .cta-box p { color: rgba(255, 255, 255, 0.85); max-width: 60ch; margin-inline: auto; }
+.cta-linkedin {
+  color: #71b7f0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-decoration: none;
+}
+.cta-linkedin:hover { color: #a6d6ff; }
+.cta-linkedin:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 .cta-box .hero-actions { justify-content: center; margin-bottom: 0; }
 .cta-box .btn-ghost { border-color: var(--cream-100); color: var(--cream-100); }
 .cta-box .btn-ghost:hover { background: rgba(255, 255, 255, 0.1); }
